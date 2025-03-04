@@ -1,0 +1,37 @@
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color:rgb(205, 235, 175);
+
+}
+.main-box{
+  height: 450px;
+  width: 800px;
+  background-image: 
+  linear-gradient(to right, rgba(255,255,255,0) 50%, rgb(162, 190, 60) 50%), 
+  url('food-pic.jpg');
+  background-color: rgb(212, 140, 45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  justify-content: flex-end;
+  padding: 40px 210px;
+  align-items: flex-start;
+  margin-top: 30px;
+
+}
+.Welcome{
+  font-size: 40px;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+
+
+
+}
